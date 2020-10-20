@@ -15,7 +15,7 @@ A collection of awesome CRDT resources
 - [Total Order (Wikipedia)](https://en.wikipedia.org/wiki/Total_order)
 - [Causal Ordering](http://scattered-thoughts.net/blog/2012/08/16/causal-ordering/)
 - [Semilattice (Wikipedia)](https://en.wikipedia.org/wiki/Semilattice)
-- [Defanging Order Theory](http://jtfmumm.com/blog/2015/11/17/crdt-primer-1-defanging-order-theory/)
+- [A CRDT Primer Part I: Defanging Order Theory](http://jtfmumm.com/blog/2015/11/17/crdt-primer-1-defanging-order-theory/)
 
 ### Clocks
 
@@ -90,9 +90,16 @@ A collection of awesome CRDT resources
 - [Data Laced with History: Causal Trees & Operational CRDTs](http://archagon.net/blog/2018/03/24/data-laced-with-history)
 - [Serverless collaboration - (03/03/2019)](https://thegeez.net/2019/03/03/serverless_collab.html)
 - [Code together in real time with Teletype for Atom - (15/11/2017)](https://blog.atom.io/2017/11/15/code-together-in-real-time-with-teletype-for-atom.html)
+- [A CRDT Primer Part II: Convergent CRDTs](http://jtfmumm.com/blog/2015/11/24/crdt-primer-2-convergent-crdts/)
+
+## Skepticism
+
+- [Real Differences between OT and CRDT for Co-Editors](https://arxiv.org/pdf/1810.02137.pdf)
+- [Why CRDT didn't work out as well for collaborative editing xi-editor](https://github.com/xi-editor/xi-editor/issues/1187#issuecomment-491473599)
 
 ## Videos
 
+- [CRDTs: The Hard Parts - Martin Kleppman](https://youtu.be/x7drE24geUw)
 - [Strong Eventual Consistency and Conflict-free Replicated Data Types - Marc Shapiro (ThisByGustav)](https://www.youtube.com/watch?v=ebWVLVhiaiY&index=9&list=PLU3pXbz7Jcgn-tyj_hZ3kLlna_ojG5qD5)
 - [CRDTs in Practice - Marc Shapiro & Nuno Preguiça (Erlang Solutions)](https://www.youtube.com/watch?v=xxjHC3yLDqw)
 - [Automerge: Making servers optional for real-time collaboration - Martin Kleppmann (J On The Beach 2018)](https://www.youtube.com/watch?v=PHz17gwiOc8&index=3&list=PLBWIvCz5rfq0CFXhIWKhbznImXB1aBqbp)
@@ -126,7 +133,7 @@ A collection of awesome CRDT resources
 - [LSEQArray: aims to provide an implementation of a CRDT-based array using the allocation strategy LSEQ](https://github.com/Chat-Wane/LSEQArray)
 - [Automerge: A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically](https://github.com/automerge/automerge)
 - [Yjs: framework for offline-first p2p shared editing on structured data like text, richtext, json, or XML](https://github.com/y-js/yjs)
-- [RON: Replicated Object Notation, a distributed live data format, golang/ragel lib ](https://github.com/gritzko/ron)
+- [RON: Replicated Object Notation, a distributed live data format](https://replicated.cc/) ([implementations in C++, Elixir, Go, Haskell, Java, JavaScript, Rust](https://replicated.cc/impl/))
 - [teletype-crdt: The string-wise sequence CRDT powering peer-to-peer collaborative editing in Teletype for Atom](https://github.com/atom/teletype-crdt)
 - [Peer CRDT: An extensible collection of operation-based CRDTs that are meant to work over a p2p network](https://github.com/ipfs-shipyard/peer-crdt)
 - [Distributed Data Structures in Coq](https://github.com/cmeiklejohn/distributed-data-structures)
@@ -153,6 +160,7 @@ A collection of awesome CRDT resources
 
 ### Databases and Logs
 
+- [Concordant](https://www.concordant.io/)
 - [AntidoteDB](https://syncfree.github.io/antidote/)
 - [Riak KV](http://docs.basho.com/riak/kv/2.2.3/developing/data-types/)
 - [Hypermerge: combines Automerge, a CRDT, with hypercore, a distributed append-only log](https://github.com/automerge/hypermerge)
@@ -160,6 +168,10 @@ A collection of awesome CRDT resources
 - [Swarm: JavaScript replicated model (M of MVC) library](https://github.com/gritzko/swarm)
 - [Datanet: an open source CRDT based data synchronization system](http://datanet.co/)
 - [Kuhirō: The Near Cloud](https://www.kuhiro.com)
+
+### Productivity
+
+- [ff — a distributed note taker and task manager](https://github.com/ff-notes/ff)
 
 ## Projects and Organizations
 
@@ -173,3 +185,4 @@ A collection of awesome CRDT resources
 - [Readings in conflict-free replicated data types](http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html)
 - [Carlos Baquero bibliography](https://dblp.uni-trier.de/pers/hd/b/Baquero:Carlos)
 - [BOOM: Berkley Orders of Magnitude](http://boom.cs.berkeley.edu/papers.html)
+- [CRDT.tech](https://crdt.tech/)
